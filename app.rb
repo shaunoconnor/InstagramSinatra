@@ -8,8 +8,8 @@ class APP < Sinatra::Base
   CALLBACK_URL = "http://0.0.0.0:4567/oauth/callback"
 
   Instagram.configure do |config|
-    config.client_id = "9d785ee618204c54a984895ac20c0c77"
-    config.client_secret = "a21fb0948a4f4f8e916676cc1272ad31"
+    config.client_id = "YOUR_CLIENT_ID"
+    config.client_secret = "YOUR_CLIENT_SECRET"
   end
 
   get "/" do
