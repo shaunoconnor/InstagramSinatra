@@ -1,4 +1,4 @@
-InstagramSinatra
+Instagram Sinatra
 ================
 
-A test application using the Instagram RubyGem
+A test application using the Instagram RubyGem.
